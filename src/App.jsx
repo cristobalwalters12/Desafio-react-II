@@ -9,7 +9,7 @@ import NotFound from './views/NotFound';
 import './App.css';
 function App() {
   return (
-    <div>
+      <>
         <NavBarPizza />
         <Routes>
         <Route path="/" element={<Home />} />
@@ -17,7 +17,7 @@ function App() {
         <Route path="/carrito" element={<Carrito />} />
         <Route path="*" element={<NotFound />} />
         </Routes>
-    </div>
+      </>
   );
 }
 
