@@ -1,10 +1,13 @@
+import { useParams } from 'react-router-dom';
+import CardDetalle from "../components/CardDetalle";
+
+
 function Detalle() {
-
-
+  const { id } = useParams();
+  console.log(id)
   return (
     <div>
-        <h1>Detalle</h1>
-        <p>Esta es la página de detalle</p>
+      <CardDetalle pizzaId={id} />
     </div>
   );
 }

@@ -1,12 +1,12 @@
-
 import Hero from "../components/Hero";
 import CardPizza from "../components/CardPizza";
-const Home= () => {
+
+const Home = () => {
   return (
     <div>
       <Hero />
       <div className="flex justify-center mt-6">
-        <div className="grid grid-cols-3 gap-14">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-14">
           <CardPizza/>
         </div>
       </div>
