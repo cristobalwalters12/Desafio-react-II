@@ -6,15 +6,13 @@ import { BrowserRouter } from 'react-router-dom'
 import { PizzaProvider } from './context/PizzaProvider.jsx'
 import { ThemeProvider } from '@material-tailwind/react'
 ReactDOM.createRoot(document.getElementById('root')).render(
-  
   <React.StrictMode>
-      <BrowserRouter>
-   <ThemeProvider>
-   <PizzaProvider>
-      <App />
-    </PizzaProvider>
-
-    </ThemeProvider>
+    <BrowserRouter>
+      <ThemeProvider>
+        <PizzaProvider>
+          <App />
+        </PizzaProvider>
+      </ThemeProvider>
     </BrowserRouter>
   </React.StrictMode>,
 )

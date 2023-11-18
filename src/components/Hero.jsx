@@ -2,8 +2,8 @@ import imageHero from '../assets/images/imageHero.jpg';
 
 const Hero = () => {
     return (
-        <div className="hero relative bg-cover bg-center h-[300px] flex items-center justify-center" 
-             style={{backgroundImage: `url(${imageHero})`}}>
+        <div className="hero relative bg-cover bg-center h-[300px] flex items-center justify-center"
+            style={{backgroundImage: `url(${imageHero})`}}>
             <div className="absolute inset-0 bg-black opacity-50" ></div>
             <div className="text-white text-center relative ">
                 <h1 className="text-6xl mb-3">¡Pizzeria Mamma Mia!</h1>

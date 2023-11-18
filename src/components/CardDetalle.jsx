@@ -24,10 +24,9 @@ const CardDetalle = ({ pizzaId }) => {
                         ))}
                     </ul>
                     <div className='flex justify-start space-x-12 mt-4'>
-    <Typography variant="h2" color="blue-gray">${pizzaDetalle.price}</Typography>
-    <Button color="red" onClick={() => addToCart(pizzaDetalle)}>🛒 Añadir al carrito</Button>
-</div>
-                    
+                        <Typography variant="h2" color="blue-gray">${pizzaDetalle.price}</Typography>
+                        <Button color="red" onClick={() => addToCart(pizzaDetalle)}>🛒 Añadir al carrito</Button>
+                    </div>
                 </CardBody>
             </div>
         </Card>

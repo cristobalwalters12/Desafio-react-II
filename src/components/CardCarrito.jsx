@@ -15,7 +15,7 @@ const CardCarrito = () => {
     }, {});
 
     return (
-        <div className='mt-4'>  
+        <div className='mt-4'>
             <Card>
                 <CardHeader color="blue-gray">
                     <Typography variant="h2" color="white">Carrito</Typography>
